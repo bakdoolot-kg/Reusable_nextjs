@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Without @media, will be XS
+
+/*====== BREAKPOINTS ======*/
+/* For very huge devices (xl2) */
+@media screen and (min-width: 1536px) {
+}
+
+/* For huge devices (xl) */
+@media screen and (min-width: 1280px) {
+}
+
+/* For large devices (lg) */
+@media screen and (min-width: 1024px) {
+}
+
+/* For medium devices (md) */
+@media screen and (min-width: 768px) {
+}
+
+/* For small devices (sm) */
+@media screen and (min-width: 640px) {
+}
