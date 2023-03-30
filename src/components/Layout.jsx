@@ -1,6 +1,7 @@
 import Head from "next/head";
-import { Raleway } from "next/font/google";
-import Header from "./Header";
+import Header from "./header/Header";
+import NavMenu from "./NavMenu";
+import {Raleway} from "next/font/google"
 
 const raleway = Raleway({
   subsets: ["cyrillic", "latin"],
@@ -23,6 +24,8 @@ const Layout = ({ title, description, children }) => {
       </Head>
 
       <Header />
+      <NavMenu />
+
       <main style={raleway.style}>{children}</main>
     </>
   );
